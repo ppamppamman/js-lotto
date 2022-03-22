@@ -1,3 +1,6 @@
+import App from "App.js";
+new App({$target: document.body.querySelector("#app")})
+
 const $showResultButton = document.querySelector('.open-result-modal-button')
 const $modalClose = document.querySelector('.modal-close')
 const $modal = document.querySelector('.modal')
@@ -15,3 +18,5 @@ const onModalClose = () => {
 
 $showResultButton.addEventListener('click', onModalShow)
 $modalClose.addEventListener('click', onModalClose)
+
+
