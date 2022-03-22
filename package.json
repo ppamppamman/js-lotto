@@ -2,8 +2,15 @@
   "name": "racingcar",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^6.3.0"
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "cypress": "^6.3.0",
+    "jest": "^27.5.1"
   }
 }
